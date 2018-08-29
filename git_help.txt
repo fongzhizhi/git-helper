@@ -104,7 +104,7 @@
 	$ git checkout dev
 	4、创建并切换分支：注意，在切换分支之前需要将变动都提交了才能切换
 	$ git checkout -b dev
-	5、合并分支：合并前先切换到master分支
+	5、合并某分支到当前分支：合并前先切换到master分支
 	$ git merge dev
 	6、删除分支
 	$ git branch -d dev
